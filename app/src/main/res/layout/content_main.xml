@@ -4,47 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.diceout.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <TextView
+        android:id="@+id/rollResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Let's play!"
-        android:id="@+id/rollResult"
-        />
+        android:textColor="@android:color/white" />
 
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
         android:id="@+id/die1Image"
-        android:layout_below="@+id/rollResult"
-        android:layout_marginTop="25dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_alignParentLeft="true"
-        android:src="@drawable/die_1"
-        />
+        android:layout_below="@+id/rollResult"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/die_1" />
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
         android:id="@+id/die2Image"
-        android:layout_below="@+id/rollResult"
-        android:layout_marginTop="25dp"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/die_1"
-        />
-
-    <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:id="@+id/die3Image"
         android:layout_below="@+id/rollResult"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
+        android:src="@drawable/die_1" />
+
+    <ImageView
+        android:id="@+id/die3Image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:src="@drawable/die_1"
-        />
+        android:layout_alignTop="@+id/die2Image"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/die_1" />
 
     <TextView
         android:id="@+id/scoreText"
@@ -54,6 +54,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="50dp"
         android:text="Score 0"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>
