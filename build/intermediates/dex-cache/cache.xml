@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rasmus laptop\.android\build-cache\c7e768e982e02bea03a240875708a1825090d84d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\Rasmus laptop\Documents\GitHub\DiceOut\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0685f42ecf4db593a77e0be5ae0d9eb1e2360646\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rasmus laptop\.android\build-cache\bbc93bf459426b5e51ede07a7afce6457ed1eeb2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Rasmus laptop\Documents\GitHub\DiceOut\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_006275b7246e7a63af4d04577710e9e2c8696b34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rasmus laptop\.android\build-cache\4f5a07c39081006621a343f438ba626f2748c7bb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\Rasmus laptop\Documents\GitHub\DiceOut\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e3a20e557313baa95be915932c90313685bef234\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rasmus laptop\Documents\GitHub\DiceOut\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Rasmus laptop\Documents\GitHub\DiceOut\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f6950a3d03ad0267f2372531d23b5972b7ed677f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rasmus laptop\Documents\GitHub\DiceOut\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca5bc0974a68b3895b93ee086b2ddfc0c95aa8cb">
+        <dex dex="C:\Users\Rasmus laptop\Documents\GitHub\DiceOut\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_73a9449df8b75c9b0ffc83092fe0d0f85db42e53\classes.dex" />
+    </item>
+
+</items>

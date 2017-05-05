@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // set initial score
+        // Set initial score
         score = 0;
 
-        //Create greeting
+        // Create greeting
         Toast.makeText(getApplicationContext(), "Welcome to DiceOut!",Toast.LENGTH_SHORT).show();
     }
 
